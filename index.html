@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olha o Bicho Piruleta</title>
+</head>
+<style>
+    body{
+        background:#000;
+    }
+    /* Fixed width container */
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+
+    /* Responsive fixed width container for small screens */
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    /* Responsive fixed width container for medium screens */
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    /* Responsive fixed width container for large screens */
+    @media (min-width: 992px) {
+        .container {
+            max-width: 1100px;
+        }
+    }
+
+    /* Responsive fixed width container for extra large screens */
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1400px;
+        }
+    }
+    .center{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="center">
+                <img src="./bicho_piruleta.gif" alt="Bicho Piruleta"/>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
